@@ -1,5 +1,6 @@
 package com.kbaez.service;
 
-public class IPersonaService {
-
+public interface IPersonaService {
+	
+	void registrar(String nombre);
 }
